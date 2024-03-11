@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int n, somme = 0;
+
+    printf("Entrez un entier positif : ");
+    scanf("%d", &n);
+
+    // Calcul de la somme des entiers de 1 à n
+    for (int i = 1; i <= n; i++) {
+        somme += i;
+    }
+
+    printf("La somme des entiers de 1 à %d est : %d\n", n, somme);
+
+    return 0;
+}
+//WAAAAAAAAAAAAAAAA
